@@ -1,0 +1,35 @@
+{
+    "name": "electroLABOT",
+    "description": "electroLABOT is a library for programming the electroLABOT robot.",
+    "keywords": "robot,leds,ultrasonic,i2c,imu",
+    "authors": [
+        {
+            "name": "Vincent Stragier",
+            "url": "https://github.com/2010019970909",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/electroLAB-Belgium/electroLABOT.git"
+    },
+    "version": "0.0.0",
+    "license": "MIT",
+    "homepage": "https://electrolab.be/",
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "export": {
+        "exclude": [
+            "docs"
+        ]
+    },
+    "build": {
+        "srcFilter": [
+            "+<*.c>",
+            "+<*.cpp>",
+            "+<*.h>",
+            "+<platforms/esp/32/*.cpp>"
+        ],
+        "libArchive": false
+    }
+}

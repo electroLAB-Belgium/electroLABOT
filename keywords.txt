@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For electroLABOT
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+electroLABOT	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# electroLABOT methods
+electroLABOT	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# Color correction values
+SOMETHING	LITERAL1
+
+# Color util literals
+SOMETHING	LITERAL1
